@@ -13,6 +13,7 @@ end
 getgenv().CB_LOADED = {
     CB_Remote = "",
     CB_Arg2 = "",
+    CB_ChatType = "",
     CB_LOADED = false,
     CB_LU = true -- Loader Used (LU)
 }
@@ -35,7 +36,8 @@ local MyButton = Page1.Button({
 	Text = "Default",
 	Callback = function()
 		CB.CB_Remote = "SayMessageRequest"
-        CB.CB_Arg2 = "All"
+                CB.CB_Arg2 = "All"
+		CB.CB_ChatType = "Default"
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Universal"), true))()
 	end
 })
@@ -72,7 +74,8 @@ local MyButton = Page1.Button({
 		local MyButton = Page1.Button({
 			Text = "Execute",
 			Callback = function()
-				loadstring(game:HttpGet(("https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Universal"), true))()
+			    CB.CB_ChatType = "Custom"
+			    loadstring(game:HttpGet(("https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Universal"), true))()
 			end
 		})
 	end
