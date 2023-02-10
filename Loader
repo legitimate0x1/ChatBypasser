@@ -1,4 +1,4 @@
--- Made by ArasOfficial#8439
+-- Made by ArasOfficial8439
 
 local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
 
@@ -33,7 +33,7 @@ local MyButton = Page1.Button({
 	Text = "Default",
 	Callback = function()
 		CB.CB_Remote = "SayMessageRequest"
-        CB_Arg2 = "All"
+        CB.CB_Arg2 = "All"
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Universal"), true))()
 	end
 })
@@ -56,14 +56,14 @@ local MyButton = Page1.Button({
         local MyTextField = Page1.TextField({
 			   Text = "Remote Name (Not Path, Only Name)",
 			   Callback = function(Value)
-			   getgenv().CB_Remote = Value
+			   CB.CB_Remote = Value
 		   end
 		})
 
         local MyTextField = Page1.TextField({
 			   Text = "Argumet [2]",
 			   Callback = function(Value)
-			   getgenv().CB_Arg2 = Value
+			   CB.CB_Arg2 = Value
 		   end
 		})
 
