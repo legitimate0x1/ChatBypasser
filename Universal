@@ -1,1 +1,76 @@
+-- Made by ArasOfficial#8439
+
 game:GetService("StarterGui"):SetCore("SendNotification",{Title="Chat Bypasser",Text="Coming Soon!",Icon="rbxassetid://6238540373",Duration=5})
+
+if getgenv().CB_LU ~= true then return loadstring(game:HttpGet(("https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Loader"), true))() end
+if getgenv().CB_LOADED and getgenv().CB_LOADED.CB_LOADED then return game:GetService("StarterGui"):SetCore("SendNotification",{Title="Chat Bypasser",Text="Chat Bypasser is already running.",Icon="rbxassetid://6238540373",Duration=5}) end
+
+if pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/legitimate0x1/ChatBypasser/main/Version'))() end) then
+	if Version == "PATCHED" then
+		return game.Players.LocalPlayer:Kick("[Chat Bypasser]: PATCHED!")
+	end
+end
+
+local CB = getgenv().CB_LOADED
+
+CB.CB_LOADED = true
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local SoundsFolder = game.CoreGui.RobloxGui.Sounds
+local ButtonClick = Instance.new("Sound", SoundsFolder)
+
+ButtonClick.Name = "ButtonClick" ButtonClick.SoundId = "rbxassetid://9113649171"
+
+local CG = game:GetService("Players").LocalPlayer.PlayerGui.Chat
+
+if CB.CB_ChatType ~= "Default" then
+    for i,v in pairs(game:GetDescendants()) do
+        if v:IsA("RemoteEvent") and v.Name == CB.CB_ChatType or v:IsA("RemoteFunction") and v.Name == CB.CB_ChatType then
+            Remote = v
+        end
+    end
+else
+    Remote = game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents:FindFirstChild("SayMessageRequest")
+end
+
+local Send = function(Message)
+    ButtonClick:Play()
+
+    if Remote:IsA("RemoteEvent") then
+        Remote:FireServer(Message, CB.CB_Arg2)
+    elseif Remote:IsA("RemoteFunction") then
+        Remote:InvokeServer(Message, CB.CB_Arg2)
+    end
+end
+
+local X = Material.Load({
+	Title = "Chat Bypasser",
+	Style = 1,
+	SizeX = 275,
+	SizeY = 275,
+	Theme = "Dark",
+})
+
+local Page1 = X.New({
+	Title = "Pre-Made"
+})
+
+local Page2 = X.New({
+	Title = "Settings"
+})
+
+local Page3 = X.New({
+	Title = "Script"
+})
+
+local Page4 = X.New({
+	Title = "Others"
+})
+
+local MyButton = Page1.Button({
+	Text = "Test",
+	Callback = function()
+		Send("Test!")
+	end
+})
