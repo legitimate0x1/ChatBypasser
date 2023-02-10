@@ -1,0 +1,1 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{Title="Chat Bypasser",Text="Coming Soon!",Icon="rbxassetid://6238540373",Duration=5})
