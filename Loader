@@ -15,8 +15,9 @@ getgenv().CB_LOADED = {
     CB_Arg2 = "",
     CB_ChatType = "",
     CB_LOADED = false,
-    CB_LU = true -- Loader Used (LU)
 }
+
+getgenv().CB_LU = true -- Loader Used (LU)
 
 local CB = CB_LOADED
 
