@@ -13,6 +13,7 @@ end
 getgenv().CB_LOADED = {
     CB_Remote = "",
     CB_Arg2 = "",
+    CB_LOADED = false,
     CB_LU = true -- Loader Used (LU)
 }
 
