@@ -69,15 +69,428 @@ local Page4 = X.New({
 })
 
 local MyButton = Page1.Button({
-	Text = "Test",
+	Text = "Fuck",
 	Callback = function()
-		Send("Test!")
+		Send("F \216\167\216\167 u \216\167\216\167ck!")
 	end
 })
 
 local MyButton = Page1.Button({
-	Text = "Test",
+	Text = "Fucking",
 	Callback = function()
-		Send("Test 2!")
+		Send("Fu\227\129\143k ing...")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Fucked",
+	Callback = function()
+		Send("Fu\227\129\143ked!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Fuck You!",
+	Callback = function()
+		Send("Fu\227\129\143k You!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "RAPE",
+	Callback = function()
+		Send("R\208\144\208\160\208\149!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "",
+	Callback = function()
+		Send("")
 	end
 })
