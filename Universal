@@ -74,3 +74,10 @@ local MyButton = Page1.Button({
 		Send("Test!")
 	end
 })
+
+local MyButton = Page1.Button({
+	Text = "Test",
+	Callback = function()
+		Send("Test 2!")
+	end
+})
