@@ -19,7 +19,7 @@ getgenv().CB_LOADED = {
 
 getgenv().CB_LU = true -- Loader Used (LU)
 
-local CB = CB_LOADED
+local CB = getgenv().CB_LOADED
 
 local X = Material.Load({
 	Title = "Chat Bypasser",
