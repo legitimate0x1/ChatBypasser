@@ -1,4 +1,9 @@
--- Made by ArasOfficial#8439
+--[[
+      Owner: ArasOfficial#8439
+
+      Scripting: ArasOfficial#8439
+      Bypassing: SSS, poopydoopy, lolie, super, kruben, Racky, Synny and ArasOfficial#8439
+--]]
 
 game:GetService("StarterGui"):SetCore("SendNotification",{Title="Chat Bypasser",Text="Coming Soon!",Icon="rbxassetid://6238540373",Duration=5})
 
@@ -106,65 +111,65 @@ local MyButton = Page1.Button({
 })
 
 local MyButton = Page1.Button({
-	Text = "",
+	Text = "BITCH",
+	Callback = function()
+		Send("\208\146I\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165T\208\161\208\157!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "BITCHES",
+	Callback = function()
+		Send("\208\146IT\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\226\129\165\208\161\208\157E\208\133!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Be my wife",
+	Callback = function()
+		Send("\66\101\32\109\121\32\119\105\102\101\33")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Nigga",
+	Callback = function()
+		Send("\208\191\226\129\165i\201\161\226\129\165\201\161\226\129\165\208\176.")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Nigger",
+	Callback = function()
+		Send("ni\196\161\196\161er")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "PISS",
+	Callback = function()
+		Send("\208\160\211\128\208\133\208\133!")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Bastard (Coming Soon)",
+	Callback = function()
+		Send("þastard.")
+	end
+})
+
+local MyButton = Page1.Button({
+	Text = "Discord (Coming Soon)",
 	Callback = function()
 		Send("")
 	end
 })
 
 local MyButton = Page1.Button({
-	Text = "",
+	Text = "SHIT",
 	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
-	end
-})
-
-local MyButton = Page1.Button({
-	Text = "",
-	Callback = function()
-		Send("")
+		Send("\208\133\208\157I\208\162!")
 	end
 })
 
